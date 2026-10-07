@@ -1,0 +1,30 @@
+/* Speaking: Part 2 cue cards (with Part 3 follow-ups) and Part 1 topics. */
+const CUECARDS = [
+  { title: "Describe a book that you found interesting.", b: ["what the book was", "when you read it", "what it was about", "and explain why you found it interesting"], p3: ["Do people read less than they used to?", "Should schools choose what children read?", "Will printed books disappear?"] },
+  { title: "Describe a person you admire.", b: ["who the person is", "how you know them", "what they have done", "and explain why you admire them"], p3: ["What qualities make someone a good role model?", "Do celebrities have a responsibility to behave well?", "Has the idea of a hero changed over time?"] },
+  { title: "Describe a time you helped someone.", b: ["who you helped", "what the situation was", "how you helped", "and explain how you felt afterwards"], p3: ["Are people less helpful in cities?", "Should volunteering be compulsory at school?", "Why do some people find it hard to ask for help?"] },
+  { title: "Describe a place you would like to visit.", b: ["where it is", "how you know about it", "what you would do there", "and explain why you want to go"], p3: ["How has tourism changed in your country?", "Can tourism damage a place?", "Is it better to travel alone or in a group?"] },
+  { title: "Describe a piece of advice you received.", b: ["who gave it", "what the advice was", "whether you followed it", "and explain how useful it was"], p3: ["Who do young people go to for advice today?", "Is advice from the internet reliable?", "Why do people sometimes ignore good advice?"] },
+  { title: "Describe a skill you learned as a child.", b: ["what the skill was", "who taught you", "how you learned it", "and explain how it has helped you"], p3: ["What skills should every child learn?", "Is it easier to learn as a child or an adult?", "Will future jobs need different skills?"] },
+  { title: "Describe a memorable celebration.", b: ["what it was", "where it took place", "who was there", "and explain why it was memorable"], p3: ["Are traditional celebrations losing importance?", "Do people spend too much on celebrations?", "How do celebrations differ between generations?"] },
+  { title: "Describe an important decision you made.", b: ["what the decision was", "when you made it", "what options you had", "and explain why it was important"], p3: ["Should parents make decisions for teenagers?", "Do people have too many choices today?", "How do people make big financial decisions?"] },
+  { title: "Describe a website or app you use often.", b: ["what it is", "how you found it", "what you use it for", "and explain why you like it"], p3: ["Are people too dependent on apps?", "Should children's screen time be limited?", "How will technology change education?"] },
+  { title: "Describe a time you were very busy.", b: ["when it was", "what you had to do", "how you managed", "and explain how you felt"], p3: ["Are people busier than in the past?", "How can people manage stress at work?", "Is a four-day working week a good idea?"] },
+  { title: "Describe a building you find attractive.", b: ["where it is", "what it looks like", "what it is used for", "and explain why you find it attractive"], p3: ["Should old buildings be preserved?", "How does architecture affect people's mood?", "What makes a city pleasant to live in?"] },
+  { title: "Describe a goal you hope to achieve.", b: ["what the goal is", "when you set it", "what you need to do", "and explain why it matters to you"], p3: ["Is it important to have long-term goals?", "Do young people today have realistic ambitions?", "Does success mean the same in every culture?"] },
+  { title: "Describe a time you learned something from a mistake.", b: ["what the mistake was", "when it happened", "what the result was", "and explain what you learned"], p3: ["Should schools encourage students to take risks?", "Why are some people afraid of failure?", "Can companies benefit from mistakes?"] },
+  { title: "Describe a teacher or coach who motivated you.", b: ["who they were", "what they taught", "how they motivated you", "and explain the effect it had"], p3: ["What makes a good teacher?", "Will online learning replace teachers?", "Should teachers be paid more?"] },
+  { title: "Describe a sport or activity you enjoy.", b: ["what it is", "when you started", "how often you do it", "and explain why you enjoy it"], p3: ["Why is sport important for society?", "Should professional athletes earn so much?", "How can governments encourage exercise?"] },
+  { title: "Describe a piece of music that is special to you.", b: ["what it is", "when you first heard it", "how it makes you feel", "and explain why it is special"], p3: ["How has the way people listen to music changed?", "Should music be compulsory at school?", "Does music bring cultures together?"] }
+];
+
+const PART1 = [
+  { topic: "Home", q: ["Do you live in a house or an apartment?", "What's your favourite room, and why?", "Would you like to change anything about your home?"] },
+  { topic: "Studies", q: ["What are you studying at the moment?", "Why did you choose that subject?", "What do you find most difficult about studying?"] },
+  { topic: "Free time", q: ["What do you usually do at weekends?", "Do you prefer relaxing at home or going out?", "Has the way you spend free time changed?"] },
+  { topic: "Food", q: ["What's a typical meal in your country?", "Do you enjoy cooking?", "Is there any food you didn't like as a child?"] },
+  { topic: "Weather", q: ["What's the weather like where you live?", "Which season do you like best?", "Does the weather affect your mood?"] },
+  { topic: "Technology", q: ["How often do you use your phone?", "What app could you not live without?", "Do you think you spend too much time online?"] },
+  { topic: "Sport", q: ["Do you play any sports?", "What sports are popular in your country?", "Did you do sport at school?"] },
+  { topic: "Neighbourhood", q: ["Describe your neighbourhood.", "Do you know your neighbours well?", "What would you improve about the area?"] }
+];

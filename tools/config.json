@@ -1,0 +1,10 @@
+{
+  "appName": "BandUp",
+  "title": "BandUp · IELTS practice",
+  "version": "1.2.0",
+  "androidVersionCode": 3,
+  "androidPackage": "com.bandup.ielts",
+  "androidMinSdk": 24,
+  "androidTargetSdk": 34,
+  "themeColor": "#F4F6FB"
+}

@@ -1,0 +1,10 @@
+BandUp for iPhone / iPad (installable web app)
+
+1. Put this folder online (free options):
+   - Netlify Drop: open https://app.netlify.com/drop and drag this whole folder onto the page.
+   - Or GitHub Pages / Cloudflare Pages.
+2. On your iPhone, open the link in Safari.
+3. Tap Share, then "Add to Home Screen".
+4. Open BandUp from the home screen: it runs full screen and works offline.
+
+Progress is saved on the device. It is separate from the Android app and the web version.
